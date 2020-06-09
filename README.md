@@ -13,7 +13,9 @@ The code creates three .txt files: <br>
 
 The file <b>clean_texts.txt</b> was then processed with AntConc (the freeware corpus analysis toolkit http://www.laurenceanthony.net/software/antconc/) in order to create a list of words ordered by frequency and 3-Grams. 
 
-The frequency list allows to learn first the words that are more frequent in the text, and thus helps to understand more texts faster. The list of 3-Grams has two application. 
+The frequency list allows to learn first the words that are more frequent in the text, and thus helps to understand more texts faster. It begins obviously with the most frequent German words at all, such as der, die, und etc. But then one can find more sophisticated words like <i> Verfügung, Moglichkeit</i> and <i>anschließend</i>. 
+
+To my mind, the more applicable thing is the list of 3-Grams which has two possible uses. 
 <ul>
 <li>First, it enables to understand what the local news are about. For example, the most frequent 3-Grams in my set of news are the following: fc carl zeiss, carl zeiss jena, ff usv jena, den chemnitzer fc. Therefore, we can conclude that the football topic is more represented now than, let's say, the coronavirus.</li>
 <li>Second, it is useful to learn the words right away with grammar and context, for example: not only <i>Donnerstag</i> but <i>am Donnerstag</i>, not only <i>Motto</i> but <i>unter dem Motto</i>, not only <i>Holzmarkt</i> but <i>auf dem Holzmarkt</i> and so on.</li>
