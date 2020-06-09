@@ -13,7 +13,7 @@ The code creates three .txt files: <br>
 
 The file <b>clean_texts.txt</b> was then processed with AntConc (the freeware corpus analysis toolkit http://www.laurenceanthony.net/software/antconc/) in order to create a list of words ordered by frequency and 3-Grams. 
 
-The frequency list allows to learn first the words that are more frequent in the text, and thus helps to understand more texts faster. It begins obviously with the most frequent German words at all, such as der, die, und etc. But then one can find more sophisticated words like <i> Verfügung, Moglichkeit</i> and <i>anschließend</i>. 
+The frequency list allows to learn first the words that are more frequent in the text, and thus helps to understand more texts faster. It begins obviously with the most frequent German words at all, such as <i>der, die, und</i> etc. But then one can find more sophisticated words like <i> Verfügung, Möglichkeit</i> and <i>anschließend</i>. 
 
 To my mind, the more applicable thing is the list of 3-Grams which has two possible uses. 
 <ul>
