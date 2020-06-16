@@ -1,15 +1,20 @@
-As the learner of German, I decided to write a code that would help me to learn German vocabulary. I am also interested in local news that are written in German. My aim was to create a corpus of news from the Jenaer Nachrichten in order to find out what vocabulary I should learn at first in order to understand more.
+As the learner of German, I decided to write a script that would help me to learn German vocabulary. I am also interested in local news that are written in German. My aim was to create a corpus of news from the Jenaer Nachrichten in order to find out what vocabulary I should learn at first in order to understand more.
 
-This repository contains a code written in Python (ver. 3.5.2) and .txt files.
+This repository contains a script written in Python (ver. 3.5.2) and .txt files (in 'texts' folder).
 
-<b>getting_texts_jenaer_nachrichten.py</b>
+This is a script: <b>getting_texts_jenaer_nachrichten.py</b>
+You can download it (the green button 'download' in the right corner) and run it using IDLE or with the command line using this command:
+python3.5 getting_texts_jenaer_nachrichten.py
 
-This code creates a corpus of the texts from the Jenaer Nachrichten. A user can decide how many texts should be downloaded. The more texts are downloaded, the more representative is the corpus. 
+This script creates a corpus of the texts from the Jenaer Nachrichten. A user can decide how many texts should be downloaded. The more texts are downloaded, the more representative is the corpus. 
 
-The code creates three .txt files: <br>
+The script creates three .txt files: <br>
 <b>html.txt</b> — the content of every single web page<br>
 <b>raw_texts.txt</b> — the fragments with the texts from a web page containing some tags<br>
 <b>clean_texts.txt</b> — the texts free from the tags etc. This is the final file that is used later.<br>
+All of them you can find in the folder 'texts'. These are the interim files. The final ones are the following:<br>
+<b>frequency_list.txt</b><br>
+<b>3-Grams.txt</b><br>
 
 The file <b>clean_texts.txt</b> was then processed with AntConc (the freeware corpus analysis toolkit http://www.laurenceanthony.net/software/antconc/) in order to create a list of words ordered by frequency and 3-Grams. 
 
