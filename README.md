@@ -3,8 +3,11 @@ As the learner of German, I decided to write a script that would help me to lear
 This repository contains a script written in Python (ver. 3.5.2) and .txt files (in 'texts' folder).
 
 This is a script: <b>getting_texts_jenaer_nachrichten.py</b>
-You can download it (the green button 'download' in the right corner) and run it using IDLE or with the command line using this command:
+
+You can download it (the green button 'download' in the right corner) and run it using IDLE or with the command line using this command: <br>
+'''
 python3.5 getting_texts_jenaer_nachrichten.py
+'''
 
 This script creates a corpus of the texts from the Jenaer Nachrichten. A user can decide how many texts should be downloaded. The more texts are downloaded, the more representative is the corpus. 
 
